@@ -17,7 +17,7 @@ public class Main
         }
 
         // Now lets do two inputs get the number of reps and the msg to repeat
-        System.out.print("Enter your messaage: ");
+        System.out.print("Enter your message: ");
         msg = in.nextLine(); // We could loop here to make sure that we have a msg
 
         // Input loop as we have seen to get a valid number
@@ -76,5 +76,8 @@ public class Main
         }
         System.out.println("\n");
 
+        // Quick example, you can use a flaoting point value for the loop control var
+        for (double temp = 0.0; temp < 120.50; temp += .1)
+           System.out.printf("%8.2f\n", temp);
     }
 }
